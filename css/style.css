@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    height: 500px;
+    height: 100vh;
     background-color: white;
     
 }
@@ -244,6 +244,7 @@ a {
             align-content: center;
             text-align: center;
             margin-top: 100px;
+            flex-shrink: 3;
             
         }
     .socials {
@@ -259,9 +260,40 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-shrink: 1;
 
 
         }
+
+        .headshot {
+            display: flex;
+            flex-shrink: 3;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size:30px;
+        }
+
+    p {
+        font-size: 20px;
+    }
+
+    .headshot {
+        width: 175px;
+        height: 175px;
+    }
+
+    .sub-section {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0;
+        
+    }
     
 
     
